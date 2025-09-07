@@ -2,7 +2,6 @@ import cv2
 from pyzbar.pyzbar import decode
 import matplotlib.pyplot as plt
 import numpy as np
-from PIL import Image
 
 img = cv2.imread('QRCODE\jays.jpg')
 if (img is None):
